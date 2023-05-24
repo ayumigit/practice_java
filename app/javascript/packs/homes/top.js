@@ -27,4 +27,18 @@ while(num < max){
   count = count + 1;
 }
 
-alert('2を掛けて' + max + 'を超えるのに必要だった回数は' + count + '回です')；
+alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
+
+let i;
+let numb = 0;
+
+for( i = 1; i < 11; i++){
+  numb = numb + i;
+}
+
+alert('1から10まで足し算した結果は' + numb + 'です');
+
+alert(30 + 3)
+alert(33 - 22)
+alert(22 * 1.5)
+alert(33 / 22)
